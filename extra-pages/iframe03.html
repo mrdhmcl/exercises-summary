@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe study</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        height: 97vh;
+        
+        background-image: url('../images/wp07.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    main{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+
+        max-width: 750px;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    iframe{
+        display: block;
+        margin: auto;
+        
+        height: 30vh;
+        width: 48vw;
+    }
+
+    p#a{
+        display: inline-block;
+        background-color: rgb(79, 79, 79, 70%);
+        padding: 10px;
+        border-radius: 20px;
+        margin: 20px auto 0 370px;
+        }
+        
+    a#home-button{
+        color: white;
+        text-decoration: none;
+        }
+
+    a#home-button:hover{
+        
+        background-color: rgba(79, 79, 79, 0.70);
+        padding: 5px;
+        border-radius: 20px;
+        }
+</style>
+<body>
+    <main>
+        <h1>Testing iframe of inner pages</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae optio eius placeat laboriosam explicabo possimus quas a velit vitae numquam nostrum omnis inventore, eos veniam unde quisquam quidem atque! Ad?</p>
+        <ul>
+            
+            <li><a href="extra-extra-pages/innerpage01.html" rel="next" target="frame">First page</a></li>
+            <li><a href="extra-extra-pages/innerpage02.html" rel="next" target="frame">Second page</a></li>
+            <li><a href="extra-extra-pages/innerpage03.html" rel="next" target="frame">Third page</a></li>
+        </ul>
+
+        <iframe srcdoc="
+        <body style='font-family: Arial;'>
+        <h1>Hi, there!</h1>
+        <p>Make a choice between the options listed above &#x1F446;</p>
+        <img style='width:380px; height:230px;' src='../images/wp08.jpg'> </img>
+        </body>"
+        name="frame"
+        rameborder="1">
+            Unfortunately, this content is not compatible with your browser.
+        </iframe>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, veniam? Deleniti qui atque odio rerum hic nesciunt quam, suscipit dolorem obcaecati, delectus cupiditate quas, fugit magni. Illum reiciendis fugit porro!</p>
+    </main>
+    <p id="a"><a id="home-button" href="../index.html" rel="previous" target="_self">Go back</a></p>
+</body>

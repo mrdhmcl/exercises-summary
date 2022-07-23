@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table study</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            height: 95vh;
+
+            background-image: url('../images/wp02.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        h1{
+            margin-top: 20px;
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 75%);
+            padding: 10px;
+        }
+
+        table{
+            position: relative;
+
+            border-collapse: collapse;
+            background-color: white;
+
+            width: 700px;
+        }
+
+        caption{
+            background-color: lightgray;
+            padding: 10px;
+
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1%;
+            background-color: rgb(71, 71, 71);
+            border: 1px solid black;
+        }
+
+        #thead, tfoot{
+            background-color: rgb(71, 71, 71);
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        th, td.tdtfoot{
+            color: white;
+        }
+
+        td.tdtfoot{
+            text-align: center;
+        }
+
+        th, td{
+            padding: 15px;
+            border: 1px solid black;
+        }
+
+        p{
+            color: rgba(0, 0, 0, 0);
+        }
+
+        a{
+            color: white;
+            display: inline-block;
+            margin-top: 148px;
+            background-color: rgb(79, 79, 79, 70%);
+            padding: 10px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        a:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Large table settings</h1>
+        <table>
+            <caption>Studio Ghibli Filmography</caption>
+            <thead>
+                <tr id="thead">
+                    <th scope="col">Year</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Director</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1984</td>
+                    <td><em>Nausicaä of the Valley of the Wind</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>1986</td>
+                    <td><em>Castle in the Sky</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>1988</td>
+                    <td><em>Grave of the Fireflies</em></td>
+                    <td>Isao Takahata</td>
+                </tr>
+                <tr>
+                    <td>1988</td>
+                    <td><em>My Neighbor Totoro</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>1989</td>
+                    <td><em>Kiki's Delivery Service</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>1991</td>
+                    <td><em>Only Yesterday</em></td>
+                    <td>Isao Takahata</td>
+                </tr>
+                <tr>
+                    <td>1992</td>
+                    <td><em>Porco Rosso</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>1993</td>
+                    <td><em>Ocean Waves</em></td>
+                    <td>Tomomi Mochizuki</td>
+                </tr>
+                <tr>
+                    <td>1994</td>
+                    <td><em>Pom Poko</em></td>
+                    <td>Isao Takahata</td>
+                </tr>
+                <tr>
+                    <td>1995</td>
+                    <td><em>Whisper of the Heart</em></td>
+                    <td>Yoshifumi Kondō</td>
+                </tr>
+                <tr>
+                    <td>1997</td>
+                    <td><em>Princess Mononoke</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>1999</td>
+                    <td><em>My Neighbors the Yamadas</em></td>
+                    <td>Isao Takahata</td>
+                </tr>
+                <tr>
+                    <td>2001</td>
+                    <td><em>Spirited Away</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>2002</td>
+                    <td><em>The Cat Returns</em></td>
+                    <td>Hiroyuki Morita</td>
+                </tr>
+                <tr>
+                    <td>2004</td>
+                    <td><em>Howl's Moving Castle</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>2006</td>
+                    <td><em>Tales from Earthsea</em></td>
+                    <td>Gorō Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>2008</td>
+                    <td><em>Ponyo</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td><em>Arrietty</em></td>
+                    <td>Hiromasa Yonebayashi</td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td><em>From Up on Poppy Hill</em></td>
+                    <td>Gorō Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>2013</td>
+                    <td><em>The Wind Rises</em></td>
+                    <td>Hayao Miyazaki</td>
+                </tr>
+                <tr>
+                    <td>2013</td>
+                    <td><em>The Tale of the Princess Kaguya</em></td>
+                    <td>Isao Takahata</td>
+                </tr>
+                <tr>
+                    <td>2014</td>
+                    <td><em>When Marnie Was There</em></td>
+                    <td>Hiromasa Yonebayashi</td>
+                </tr>
+                <tr>
+                    <td>2020</td>
+                    <td><em>Earwig and the Witch</em></td>
+                    <td>Gorō Miyazaki</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row" rowspan="2">Total de filmes</th>
+                    <td class="tdtfoot">Studio Ghibli</td>
+                    <td class="tdtfoot">23</td>
+                </tr>
+                <tr>
+                    <td class="tdtfoot">Hayao Miyazaki</td>
+                    <td class="tdtfoot">10</td>
+                </tr>
+            </tfoot>
+        </table>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam distinctio ut voluptatibus aut temporibus cumque, suscipit voluptas atque. Ipsa deleniti sunt laudantium, dicta aspernatur facere provident mollitia est architecto vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta repudiandae illum a vel obcaecati quae, assumenda laboriosam minus velit eius dolor ex ipsa, odio quisquam, quidem pariatur dolores fugit dolore.</p>
+    </main>
+    <footer>
+        <p><a href="../index.html" rel="previous" target="_self">Go back</a></p>
+    </footer>
+</body>

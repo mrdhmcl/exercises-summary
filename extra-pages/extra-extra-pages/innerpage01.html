@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive table</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            position: relative;
+            width: 800px;
+            border-collapse: collapse;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1%;
+            border: 1px solid black;
+            background-color: lightgray;
+        }
+
+        caption{
+            font-weight: bolder;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        td, th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        #container{
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>Responsive table</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col">Jan</th>
+                    <th scope="col">Feb</th>
+                    <th scope="col">Mar</th>
+                    <th scope="col">Apr</th>
+                    <th scope="col">May</th>
+                    <th scope="col">Jun</th>
+                    <th scope="col">Jul</th>
+                    <th scope="col">Aug</th>
+                    <th scope="col">Sep</th>
+                    <th scope="col">Oct</th>
+                    <th scope="col">Nov</th>
+                    <th scope="col">Dec</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TV 40"</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <td>Soundbar speaker</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <td>Bose headphone</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <td>Nintendo Switch</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <td>Laundry machine</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <td>Sonos speaker</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+                <tr>
+                    <td>HP notebook</td>
+                    <td>08</td>
+                    <td>16</td>
+                    <td>02</td>
+                    <td>12</td>
+                    <td>04</td>
+                    <td>01</td>
+                    <td>28</td>
+                    <td>20</td>
+                    <td>05</td>
+                    <td>14</td>
+                    <td>18</td>
+                    <td>08</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>

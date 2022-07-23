@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box study</title>
+    <style>
+        
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            margin: 0;
+
+            height: 95vh;
+
+            background-image: url('../images/wp04.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgb(79, 79, 79);
+            padding: 5px;
+            box-shadow: 1px 2px 6px black;
+        }
+
+        a{
+            margin-right: 35px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+       main{
+        margin: 10px;
+
+        background-color: white;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+        border-radius: 10px 0px;
+
+        box-shadow: 1px 1px 5px black;
+       }
+
+       #subjects > p{
+        padding-top: 20px;
+       }
+
+       #news{
+        background-color: lightgray;
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-right: 5px;
+        padding-left: 10px;
+       }
+       
+       aside{
+        background-color: darkgray;
+       }
+
+        footer{
+            background-color: black;
+            
+            padding: 5px;
+            margin: 0;
+        }
+
+        footer > p{
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+        #round-shape{
+            border-radius: 50%;
+            
+            background-image: url('../images/perfil.jpeg');
+            background-size: cover;
+
+            width: 100px;
+            height: 100px;
+
+            margin: 10px;
+        }
+
+        p#a{
+            margin-top: 150px;
+            margin-bottom: 20px;
+        }
+
+        #home-button{
+            color: white;
+            text-decoration: none;
+            font-weight: normal;
+            margin: 10px;
+            background-color: rgb(79, 79, 79, 70%);
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        #home-button:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>My website</h1>
+
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+        </header>
+        <main>
+            <section id="subjects">
+                <p>Sports Politics Technology</p>
+            </section>
+
+            <section id="news">
+                <h2>Worldly News</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, et odio, temporibus alias placeat modi illo veritatis odit obcaecati reprehenderit eaque vel cum laboriosam dolorem quos magni, expedita sunt culpa.</p>
+                <aside>Written by John Lennon.</aside>
+            </section>
+        </main>
+        <footer>
+            <p>Developed by <a href="https://github.com/mrdhmcl" rel="external" target="_blank">Mardhem Maciel</a></p>
+        </footer>
+        <div id="round-shape">
+
+        </div>
+        <p id="a"a><a id="home-button" href="../index.html" rel="previous" target="_self">Go back</a></p>
+    </body>

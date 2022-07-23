@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe study</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+
+        height: 97vh;
+        
+        background-image: url('../images/wp07.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    main{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+
+        max-width: 750px;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    iframe{
+        display: block;
+        margin: auto;
+    }
+
+    iframe#googledocs{
+        width: 350px;
+    }
+
+    p#a{
+        display: inline-block;
+        background-color: rgb(79, 79, 79, 70%);
+        padding: 10px;
+        border-radius: 20px;
+        margin: 20px auto 0 370px;
+        }
+        
+    a#home-button{
+        color: white;
+        text-decoration: none;
+        }
+
+    a#home-button:hover{
+        background-color: rgba(79, 79, 79, 0.70);
+        padding: 5px;
+        border-radius: 20px;
+        }
+</style>
+<body>
+    <main>
+        <h1>Iframe practice</h1>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, odio magnam. Reiciendis error, tempore at odio labore, quo, quas cupiditate a minima natus quisquam id nostrum. Cupiditate aliquid itaque amet.</p>
+
+        <h2>Vimeo video</h2>
+
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/49158009?h=7e4c8e1e35&byline=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+        <h2>Google Maps</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15925.700702315968!2d-38.5291101766499!3d-3.717060156729161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74837ca5f33dd%3A0x23827501acab60e9!2sPraia%20do%20Po%C3%A7o%20da%20Draga!5e0!3m2!1spt-BR!2snl!4v1658223522469!5m2!1spt-BR!2snl" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h2>Google Docs</h2>
+        <iframe id="googledocs" src="https://docs.google.com/document/d/e/2PACX-1vSzS2jreM5o7lNR9cfreN2NZg1qqXf21j0LItSgoVBXDCcrb8zl7z7uXhgC-WSPYvndDfgXM-Mh3RVz/pub?embedded=true"></iframe>
+    </main>
+    <p id="a"><a id="home-button" href="../index.html" rel="previous" target="_self">Go back</a></p>
+</body>

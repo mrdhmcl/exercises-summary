@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table study</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            height: 95vh;
+
+            background-image: url('../images/wp02.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        caption{
+            color: black;
+            background-color: white;
+            padding: 8px;
+
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        table{
+            color: white;
+            border-collapse: collapse;
+            background-color: white;
+
+            width: 500px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        a{
+            color: white;
+            display: inline-block;
+            margin-top: 30px;
+            background-color: rgb(79, 79, 79, 70%);
+            padding: 10px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        a:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        col.blue{
+            background-color: #59608C; 
+        }
+
+        .orange{
+            background-color: #E28352;
+        }
+
+        .group{
+            background-color: #8F1447;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Register</caption>
+
+        <colgroup>
+            <col class="blue">
+            <col class="group" span="2">
+            <col class="orange">
+        </colgroup>
+
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Pronoun</th>
+            <th scope="col">Age</th>
+            <th scope="col">Occupation</th>
+        </tr>
+        <tr>
+            <td>Joyce Smith</td>
+            <td>She/Her</td>
+            <td>20</td>
+            <td>Nurse</td>
+        </tr>
+        <tr>
+            <td>Britney Spears</td>
+            <td>She/Her</td>
+            <td>38</td>
+            <td>Dancer</td>
+        </tr>
+        <tr>
+            <td>John Lennon</td>
+            <td>He/Him</td>
+            <td>28</td>
+            <td>Singer</td>
+        </tr>
+        <tr>
+            <td>Daisy Mary</td>
+            <td>He/Him</td>
+            <td>42</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Michael Scott</td>
+            <td>He/Him</td>
+            <td>46</td>
+            <td>Sales Manager</td>
+        </tr>
+        <tr>
+            <td>Uchiha Sasuke</td>
+            <td>She/Her</td>
+            <td>34</td>
+            <td>Ninja</td>
+        </tr>
+    </table>
+    <p><a href="../index.html" rel="previous" target="_self">Go back</a></p>
+</body>

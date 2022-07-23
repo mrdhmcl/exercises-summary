@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background study</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            height: 95vh;
+
+            background-image: url('../images/wp05.jpg');
+        }
+
+        div{
+            height: 300px;
+            width: 300px;
+
+            background-color: white;
+
+            display: inline-block;
+
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        #bg01{
+            background-color: brown;
+        }
+
+        #bg02{
+            background-image: linear-gradient(to bottom,  brown, #AF5B5D);
+        }
+
+        #bg03{
+            background-image: url('../images/wp01.jpg');
+            background-size: cover;
+            background-position: right bottom;
+        }
+
+        p{
+            display: inline-block;
+            background-color: rgb(79, 79, 79, 70%);
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg01"></div>
+    <div id="bg02"></div>
+    <div id="bg03"></div>
+    <br>
+    <p><a href="../index.html" target="_self" rel="previous">Go back</a></p>
+</body>

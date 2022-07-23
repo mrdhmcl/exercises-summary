@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table study</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            height: 95vh;
+
+            background-image: url('../images/wp02.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        h1{
+            margin-top: 20px;
+            display: inline-block;
+            background-color: rgba(255, 255, 255, 75%);
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+            background-color: white;
+
+            width: 400px;
+            height: 400px;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+        tr, td{
+            text-align: center;
+            vertical-align: top;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        #red{
+            background-color: #B21B17;
+        }
+
+        #purple{
+            background-color: #78707E;
+        }
+
+        #blue{
+            background-color: #ACDAFF;
+        }
+
+        #yellow{
+            background: #E3AB32;
+        }
+
+        #pink{
+            background-color: #F0B3B6;
+        }
+
+        a{
+            color: white;
+            display: inline-block;
+            background-color: rgb(79, 79, 79, 70%);
+            padding: 10px;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+
+        a:hover{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>My first table practice</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td id="red">A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td id="purple">C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td id="blue">B3</td>
+                <td>C3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td id="yellow">C4</td>
+            </tr>
+            <tr>
+                <td>A5</td>
+                <td id="pink">B5</td>
+                <td>C5</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><a href="../index.html" rel="previous" target="_self">Go back</a></p>
+</body>

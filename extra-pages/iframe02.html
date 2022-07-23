@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe study</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+
+        min-width: 450px;
+        height: 97vh;
+        
+        background-image: url('../images/wp07.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    main{
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+
+        max-width: 800px;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    iframe{
+        display: block;
+        margin: auto;
+        
+        height: 200px;
+        width: 440px;
+    }
+
+    p#a{
+        display: inline-block;
+        background-color: rgb(79, 79, 79, 70%);
+        padding: 10px;
+        border-radius: 20px;
+        margin: 20px auto 0 350px;
+        }
+        
+    a{
+        color: white;
+        text-decoration: none;
+        }
+
+    a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+        }
+</style>
+<body>
+    <main>
+        <h1>Iframe practice</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic amet incidunt, consequatur voluptatum eaque possimus aspernatur vero odio ab vitae ad distinctio quo inventore natus, assumenda, itaque sint quae. Voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit itaque vero magni voluptate dolore praesentium illo accusantium cumque, esse numquam sed iure optio ut molestiae suscipit enim amet necessitatibus.</p>
+
+        <iframe src="extra-extra-pages/innerpage01.html" frameborder="0">
+
+        </iframe>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nostrum fugiat aperiam sunt enim quia modi numquam ducimus! Fuga aliquid officiis ea praesentium exercitationem commodi veritatis sit eos voluptates aperiam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestias quidem nesciunt in ullam fugit praesentium animi placeat, architecto aspernatur quam beatae minus aut quae saepe non adipisci vero repellat.</p>
+    </main>
+    <p id="a"><a href="../index.html" rel="previous" target="_self">Go back</a></p>
+</body>
